@@ -3,7 +3,7 @@ name: Build and Push Docker Images
 on:
   push:
     tags:
-      - "v*" # 主项目版本
+      - "v*" #   主项目版本
       - "mcp-v*" # MCP 版本
   workflow_dispatch:
     inputs:
